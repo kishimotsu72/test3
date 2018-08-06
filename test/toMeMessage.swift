@@ -58,4 +58,8 @@ override func viewDidLoad() {
     
 }
     @IBOutlet weak var toMeTable: UITableView!
+    //セルの高さ
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+    }
 }
